@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.navbar{
+    background-color: red;
+    padding: 10px;
+
+}
+.cont{
+    padding: 10px;
+    
+}
+.book-cont{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    margin: 30px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-cont h2{
+    color:red ;
+}
+.book-cont button{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.addbtn{
+    background-color: red;
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-size: 40px;
+    padding-right: 30px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity:0.8 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popbox{
+    position: absolute;
+    width: 40%;
+    padding: 40px;
+    background-color: red;
+    color: black;
+    top: 20%;
+    left: 30%;
+    border-radius: 10px;
+    z-index: 2;
+    display: none;
+}
+.popbox h2{
+    text-align: center;
+}
+.popbox input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black;
+}
+textarea{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border:solid black;
+}
+#add{
+    background-color: aqua;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#cancel{
+    position: absolute;
+    background-color: aqua;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    right: 25px;
+}
+.popbox input::placeholder{
+    color: black;
+}
+.popbox textarea::placeholder{
+    color: black;
+}
+.popbox input:focus{
+    outline: none;
+}
+.popbox textarea:focus{
+    outline: none;
+}
